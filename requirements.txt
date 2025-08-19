@@ -1,0 +1,4 @@
+boto3==1.31.11
+paramiko==3.4.0          # For SSH connections if needed
+colorama==0.4.6          # Colored console output
+configparser==5.4.0      # Reading aws.cfg config file
