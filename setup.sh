@@ -43,7 +43,7 @@ else
     exit 1
 fi
 
-# Setup fake aws.cfg if not exists
+
 if [ ! -f "aws.cfg" ]; then
     echo -e "${YELLOW}Creating fake aws.cfg for testing...${NC}"
     cat > aws.cfg <<EOL
